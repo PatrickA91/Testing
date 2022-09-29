@@ -4,7 +4,7 @@ public class Main {
             return true;
         }
         if (year % 4 == 0){
-            if (year % 200 != 0){
+            if (year % 300 != 0){
                 return true;
             }
         }
