@@ -1,11 +1,10 @@
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class Test_something {
+public class Test {
 
     @ParameterizedTest
     @ValueSource(ints = {4, 8, 12, 16, 44, 104, 108, 112,

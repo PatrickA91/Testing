@@ -31,7 +31,7 @@
          <artifactId>maven-surefire-plugin</artifactId>
          <configuration>
          	<includes>
-         			<include>Test_something*</include>
+         			<include>Test*</include>
          	</includes>
          </configuration>
          <version>2.12.4</version>
