@@ -39,6 +39,11 @@ public class Test_something {
 
     }
 
+    @Test
+    public void stesingthetest(){
+        assertFalse(1==3);
+    }
+
 
 
 }
