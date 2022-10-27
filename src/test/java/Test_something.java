@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class Test_something {
+
     @ParameterizedTest
     @ValueSource(ints = {4, 8, 12, 16, 44, 104, 108, 112,
             116, 120, 124, 128, 132, 136, 140, 144, 148,
@@ -37,11 +38,6 @@ public class Test_something {
         Main Main = new Main();
         assertFalse(Main.isLeapYear(arg));
 
-    }
-
-    @Test
-    public void stesingthetest(){
-        assertFalse(1==3);
     }
 
 
