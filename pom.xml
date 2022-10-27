@@ -29,7 +29,7 @@
         <plugin>
          <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-compiler-plugin</artifactId>
-         <cofiguration>
+         <configuration>
          	<includes>
          		<include>
          			<include>Test_something*<include/>
